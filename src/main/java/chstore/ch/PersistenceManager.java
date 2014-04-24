@@ -15,7 +15,7 @@ public enum PersistenceManager {
 
     public EntityManager getEntityManager() {
         if (em == null || !em.isOpen()) {
-            em = Persistence.createEntityManagerFactory("ch-pu")
+            em = Persistence.createEntityManagerFactory("ch")
                     .createEntityManager();
         }
         return em;
