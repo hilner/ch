@@ -1,15 +1,15 @@
 
 package chstore.ch;
 
-import javax.annotation.ManagedBean;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 /**
  *
  * @author gessyca.lm
  */
-@ManagedBean
+@Named
 public class JogadorController {
     
     @Inject

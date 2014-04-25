@@ -11,7 +11,7 @@ import javax.transaction.Transactional;
 @Transactional
 public class JogadorJPA {
 
-    @PersistenceContext(unitName = "ch-pu")
+    @PersistenceContext(unitName = "ch")
     private EntityManager em;
 
     public void setEntityManager(EntityManager em) {
